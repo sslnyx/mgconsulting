@@ -1,0 +1,52 @@
+.content-bg {
+    right: 0;
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    // background: $blueT;
+}
+
+.text-block {
+    position: relative;
+    padding: 50px 0;
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
+.tint {
+    background: rgba(#2e4064, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+@media (min-width: 991px) {
+    .content-bg {
+        position: absolute;
+        right: calc(50% + 1024px / 2 - 375px);
+        height: 100%;
+        width: 45%;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+
+    .text-block {
+        padding: 50px 5px 50px 70px;
+        left: 375px;
+        width: calc(100% - 375px);
+        h3 {
+            font-size: 1.75rem;
+        }
+    }
+}

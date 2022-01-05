@@ -1,0 +1,22 @@
+header {
+    
+    background-repeat: no-repeat!important;
+    background-position: 13% 1% !important;
+    background-size: 150%!important;
+    position: relative;
+
+
+    h1 {
+        color: #fff;
+        position: relative;
+        margin: 0;
+        padding: 100px 50px;
+        max-width: 375px;
+    }
+
+
+    @media (min-width: 991px) {
+        background-position: 50% 60% !important;
+        background-size: 100%!important;
+    }
+}

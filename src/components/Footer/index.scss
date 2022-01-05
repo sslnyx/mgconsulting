@@ -1,0 +1,64 @@
+footer {
+    background: #2e4064;
+    color: #fff;
+    margin-top: 10px;
+    position: relative;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .content {
+        padding: 100px 50px;
+        padding-bottom: 50px;
+        position: relative;
+        z-index: 10;
+
+        .col-12 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+    }
+
+    .site-logo {
+        width: 200px;
+    }
+
+    .watermark {
+        position: absolute;
+        height: inherit;
+        right: 0;
+        bottom: 0;
+        pointer-events: none;
+    }
+
+    .contact {
+        margin-top: 25px;
+        text-align: center;
+        a {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    @media (min-width: 991px) {
+        .contact {
+            text-align: right;
+        }
+
+        .watermark {
+            height: 100%;
+        }
+
+        .content {
+            .col-12 {
+                text-align: inherit;
+            }
+        }
+    }
+}
